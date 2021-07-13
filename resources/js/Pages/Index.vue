@@ -14,7 +14,7 @@
                     </div>
                     <div class="space-y-1">
                         <label for="password">Contraseña</label>
-                        <input v-model="form.password" id="password" type="password"
+                        <input @keyup.enter="submit" v-model="form.password" id="password" type="password"
                                class="w-full rounded-md border border-gray-300 shadow-sm focus:ring-0 focus:border-blue-500 transition duration-200">
                     </div>
                 </div>

@@ -59,7 +59,7 @@
                                         </inertia-link>
                                     </td>
                                     <td class="p-4 truncate">
-                                        <p> {{ note.content }} </p>
+                                        <p> {{ note.content.substr(0, 40) + '...' }} </p>
                                     </td>
                                     <td class="p-4 truncate text-center">
                                         <h3> {{ note.created_at }} </h3>
@@ -117,7 +117,7 @@
                                         </inertia-link>
                                     </td>
                                     <td class="p-4 truncate">
-                                        <p> {{ note.content }} </p>
+                                        <p> {{ note.content.substr(0, 40) + '...' }} </p>
                                     </td>
                                     <td class="p-4 truncate text-center">
                                         <h3> {{ note.created_at }} </h3>
@@ -175,7 +175,7 @@
                                         </inertia-link>
                                     </td>
                                     <td class="p-4 truncate">
-                                        <p> {{ note.content }} </p>
+                                        <p> {{ note.content.substr(0, 40) + '...' }} </p>
                                     </td>
                                     <td class="p-4 truncate text-center">
                                         <h3> {{ note.created_at }} </h3>
@@ -233,7 +233,7 @@
                                         </inertia-link>
                                     </td>
                                     <td class="p-4 truncate">
-                                        <p> {{ note.content }} </p>
+                                        <p> {{ note.content.substr(0, 40) + '...' }} </p>
                                     </td>
                                     <td class="p-4 truncate text-center">
                                         <h3> {{ note.created_at }} </h3>
